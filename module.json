@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p116",
+  "id": "tacticalmap-p116",
+  "title": "Old Church and deeper",
+  "description": "Old Church, Dungeon under the church, Flooded crypt",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "13",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "old-church-and-deeper",
+      "label": "Old Church and deeper",
+      "path": "packs/old-church-and-deeper.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "old-church-and-deeper",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p116/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p116/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
